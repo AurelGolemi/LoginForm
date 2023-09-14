@@ -1,0 +1,62 @@
+body {
+  background-color: aquamarine;
+  transition: 1s;
+}
+body:hover {
+  background-color: greenyellow;
+  transition: 1s;
+}
+div {
+  align-items: center;
+  text-align: center;
+  padding: 1px;
+}
+form {
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 50px;
+}
+input {
+  align-items: center;
+  text-align: center;
+}
+button {
+  transition: 1.3s;
+  background-color: grey;
+}
+button:hover {
+  transition: 1.3s;
+  background-color: antiquewhite;
+}
+a {
+  color: black;
+}
+
+@media (min-width: 576px) {
+  div {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  div {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  div {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+}
